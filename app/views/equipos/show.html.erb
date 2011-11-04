@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @equipo.nombre %>
+</p>
+
+<p>
+  <b>Fundacion:</b>
+  <%= @equipo.fundacion %>
+</p>
+
+<p>
+  <b>Historia:</b>
+  <%= @equipo.historia %>
+</p>
+
+<p>
+  <b>Grupo:</b>
+  <%= @equipo.grupo.nombre %>
+</p>
+
+
+<%= link_to 'Edit', edit_equipo_path(@equipo) %> |
+<%= link_to 'Back', equipos_path %>

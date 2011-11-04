@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nombre: MyString
+  fundacion: 2011-10-18
+  historia: MyText
+  grupo: 
+
+two:
+  nombre: MyString
+  fundacion: 2011-10-18
+  historia: MyText
+  grupo: 

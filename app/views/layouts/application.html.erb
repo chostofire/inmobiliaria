@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+
+  <title>Ejercicioparcial</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= image_tag "alertIco.png", :size=> "50x50"%>
+	<div  id="contenedor" >
+	<div id= "menu">
+	<ul>
+		<li><%= link_to "vista1", ruta1_path %></li>
+		<li><%= link_to "vista2", ruta2_path %></li>
+		<li><%= link_to "vista3", ruta3_path %></li>
+		<li><%= link_to "vista4", ruta4_path %></li>
+	</ul>
+	</div>
+<%= yield %>
+	</div>
+</body>
+</html>
